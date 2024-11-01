@@ -1,0 +1,132 @@
+/* Reset some default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #2985d1; /* Main accent color */
+    text-decoration: none;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+#image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #248dbe; /* Main accent color */
+    margin-bottom: 10px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* #services {
+    color: white;
+} */
+
+.service {
+    background: #1d9ef5; /* Service section background */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: white;
+}
+
+button {
+    background: #29a5ec; /* Button background color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #3395e6; /* Slightly darker on hover */
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+}
+
+input, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+    border-color: #2d91ee; /* Highlight on focus */
+    outline: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+#Structure{
+    text-align: center;
+}
+#stardom{
+    background-color: blue;
+    
+    color: white;
+}
+#Nigga{
+    text-align: center;
+}
